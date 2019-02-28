@@ -23,5 +23,16 @@ public class MainClassTest extends MainClass{
         }else System.out.println("Test fail! ClassNumber not larger number 45");
     }
 
+    //Test 0.3
+    @Test
+
+    public void testGetClassString(){
+        if (getClassString().matches("Hello") && getClassString().matches("hello")){
+
+            System.out.println("The text have the KeyWords. Test Pass!");
+
+        }else System.out.println("The text not have the KeyWords. Test Fail!");
+    }
+
 
 }

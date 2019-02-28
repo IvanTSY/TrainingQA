@@ -14,4 +14,13 @@ public class MainClass {
     public int getClassNumber(){
         return (this.class_number);
     }
+
+    //Test 0.3
+
+    private String class_string = "Hello , world";
+
+    public String getClassString(){
+
+        return (this.class_string);
+    }
 }
