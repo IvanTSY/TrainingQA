@@ -17,10 +17,10 @@ public class MainClass {
 
     //Test 0.3
 
-    private String class_string = "Hello , world";
+    private String class_string = "Hello, world !";
 
     public String getClassString(){
 
-        return (this.class_string);
+        return (class_string);
     }
 }

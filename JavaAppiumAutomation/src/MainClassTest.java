@@ -27,7 +27,7 @@ public class MainClassTest extends MainClass{
     @Test
 
     public void testGetClassString(){
-        if (getClassString().matches("Hello") && getClassString().matches("hello")){
+        if (getClassString().matches("Hello.+?") || getClassString().matches("hello.+?") ){
 
             System.out.println("The text have the KeyWords. Test Pass!");
 
